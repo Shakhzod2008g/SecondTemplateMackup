@@ -1,0 +1,921 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent__absolute {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+}
+/* 1часть */
+.parent__header1{
+    background-color: #fff;
+    display: flex;
+    width: 1348px;
+    height: 75px;
+}
+a{
+    text-decoration: none;
+}
+.a{
+    color: #000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.a1 {
+    margin-right: 24px;
+    margin-left: 50px;
+    font-size: 17px;
+}
+.a2 {
+    margin-right: 420px;
+    font-size: 17px;
+}
+.a3 {
+    margin-right: 443px;
+    width: 200px;
+    color: #272524;
+    font-size: 25px;
+}
+.a4 {
+    margin-right: 25px;
+    font-size: 17px;
+}
+.img1{
+    position: absolute;
+    left: 580px;
+    top: 46px;
+    cursor: pointer;
+}
+.img2{
+    position: absolute;
+    left: 596px;
+    top: 38px;
+    cursor: pointer;
+}
+.img3{
+    cursor: pointer;
+}
+.i1{
+    width: 440px;
+    height: 46px;
+    font-size: 43px;
+    color: #fff;
+    position: absolute;
+    left: 487px;
+    top: 220px;
+}
+.i2{
+    width: 211px;
+    height: 18px;
+    font-size: 15px;
+    color: #fff;
+    position: absolute;
+    left: 610px;
+    top: 280px;
+    cursor: pointer;
+}
+.i3{
+    color: #fff;
+    width: 95px;
+    height: 15px;
+    font-size: 13px;
+    position: absolute;
+    left: 660px;
+    top: 320px;
+}
+/* 2часть */
+.parent__absolute2{
+    background-color: #E5E5E5;
+}
+.c1 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 23px;
+    font-size: 43px;
+}
+.c_1 {
+    text-align: center;
+    color: #000;
+    font-weight: 400;
+}
+.c2 {
+    text-align: center;
+    color: #A0A0A0;
+    margin-bottom: 26px;
+    font-size: 14px;
+}
+.c3 {
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 81px;
+}
+.c_2 {
+    color: #000;
+}
+.img__parent1 {
+    display: flex;
+    gap: 20px;
+    
+}
+.img4{
+    margin-left: 15px;
+}
+.desk{
+    display: flex;
+    gap: 600px;
+    font-size: 27px;
+    color: #000;
+    margin-top: 48px;
+    margin-bottom: 23px;
+}
+.desk1{
+    margin-left: 250px;
+}
+.learn{
+    display: flex;
+    gap: 418px;
+    font-size: 13px;
+}
+.learn1{
+    margin-left: 267px;
+    cursor: pointer;
+}
+/* 3часть */
+.parent__absolute3{
+    background-color: #E5E5E5;
+}
+.ch1{
+    text-align: center;
+    margin-top: 130px; 
+    margin-bottom: 16px;  
+}
+.ch_1{
+    color: #000;
+    font-size: 33px;
+}
+.ch2{
+    color: #A0A0A0;
+    width: 230px;
+    height: 18px;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 52px;
+}
+.cubick__parent{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.cubic{
+    width: 7px;
+    height: 7px;
+    background-color: #000;
+    cursor: pointer;
+}
+.img_p1{
+    margin-top: 24px;
+}
+.img6{
+    margin-left: 23px;
+}
+.reprimand__parent{
+    display: flex;
+    margin-top: 23px;
+    color: #A0A0A0;
+    font-size: 13px;
+}
+.reprimand1 {
+    margin-right: 203px;
+    margin-left: 23px;
+}
+.reprimand2 {
+    margin-right: 217px;
+}
+.reprimand3 {
+    margin-right: 227px;
+}
+.price__parent {
+    margin-bottom: 95px;
+    display: flex;
+    color: #A0A0A0;
+    font-size: 12px;
+}
+.price1 {
+    margin-right: 308px;
+    margin-left: 23px;
+}
+.price2 {
+    margin-right: 304px;
+}
+.price3 {
+    margin-right: 312px;
+}
+/* картинка */
+.text_img1{
+    position: absolute;
+    left: 350px;
+    top: 2370px;
+}
+.text_img_1{
+    font-size: 66px;
+    color: #fff;
+}
+.text_img2{
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    left: 420px;
+    top: 2470px;
+}
+.text_img3{
+    position: absolute;
+    left: 640px;
+    top: 2520px;
+}
+.text_img_2{
+    font-size: 13px;
+    color: #fff;
+}
+/* 4часть */
+.text_4 {
+    margin-top: 120px;
+    text-align: center;
+}
+.text_4_1 {
+    font-size: 34px;
+    color: #000;
+}
+.text_4_2 {
+    text-align: center;
+    margin-top: 44px;
+    margin-bottom: 120px;
+}
+.text_4__2 {
+    font-size: 13px;
+    color: #000;
+}
+/* серый блок */
+.parent__gray{
+    width: 90%;
+    height: 404px;
+    background-color: #9AA8B1;
+    margin-left: 65px;
+}
+.v{
+    opacity: 0;
+}
+.big {
+    margin-top: 130px;
+    text-align: center;
+}
+.big_1 {
+    color: #fff;
+    font-size: 43px;
+}
+.small {
+    text-align: center;
+    margin-top: 23px;
+}
+.small_1 {
+    font-size: 14px;
+    color: #fff;
+}
+.img_1 {
+    position: absolute;
+    left: 645px;
+    top: 3250px;
+}
+/* botom */
+.parent__bottom {
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 468px;
+}
+.bottom {
+    flex-direction: column;
+    margin-top: 77px;
+    margin-left: 50px;
+}
+.bottom_a_p {
+    margin-bottom: 16px;
+}
+.b1{
+    display: flex;
+    gap: 140px;
+}
+.new{
+    font-size: 22px;
+    color: #000;
+}
+.botom_1 {
+    font-size: 22px;
+    color: #000;
+}
+.sign{
+    width: 338px;
+    height: 64px;
+    font-size: 14px;
+    color: #A0A0A0;
+    position: absolute;
+    left: 240px;
+    top: 3685px;
+}
+.botom_2 {
+    font-size: 22px;
+    color: #000;
+}
+.botom_3 {
+    color: #000;
+    font-size: 22px;
+}
+.botom_4 {
+    color: #000;
+    font-size: 22px;
+}
+.botom_5 {
+    color: #000;
+    font-size: 23px;
+}
+.botom_6 {
+    color: #000;
+    font-size: 23px;
+}
+.botom_7 {
+    color: #000;
+    font-size: 22px;
+}
+.dash{
+    width: 320px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    left: 243px;
+    top: 3865px;
+}
+.bottom__bottom {
+    margin-top: 120px;
+    display: flex;
+    gap: 38px;
+}
+.bottom_bottom {
+    color:#707A7F;
+    cursor: pointer;
+}
+.w1{
+    margin-left: 601px;
+}
+.bottom_a {
+    color: #000;
+}
+.square{
+    background-color: #000;
+    color: #fff;
+    width: 82px;
+    height: 82px;
+    cursor: pointer;
+    position: absolute;
+    left: 1250px;
+    top: 3642px;
+}
+.q{
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    left: 30px;
+    top: 22px;
+}
+.burger{
+    background-color: #000;
+    width: 40px;
+    height: 4px;
+    display: none;
+}
+/* Адаптив Ipad */
+@media (max-width:768px) {
+    .parent__header1{
+        width: 768px;
+        height: 75px;
+        background-color: gray;
+    }
+    .a1{
+        display: none;
+    }
+    .a2{
+        display: none;
+    }
+    .a3{
+        position: absolute;
+        left: 300px;
+    }
+    .a4{
+        display: none;
+    }
+    .img1{
+        position: absolute;
+        left: 277px;
+    }
+    .img2{
+        position: absolute;
+        left: 290px;
+    }
+    .img3{
+        display: none;
+    }
+    .i1{
+        display: none;
+    }
+    .i2{
+        display: none;
+    }
+    .i3{
+        display: none;
+    }
+    .img4{
+        margin-left: 0px;
+    }
+    .img5{
+        margin-left: 0px;
+    }
+    .desk1{
+        position: absolute;
+        left: 430px;
+        top: 530px;
+    }
+    .desk2{
+        width: 50px;
+        position: absolute;
+        left: 670px;
+        top: 980px;
+    }
+    .learn1{
+        position: absolute;
+        left: 410px;
+        top: 620px;
+    }
+    .l1{
+        position: absolute;
+        left: 430px;
+        top: 1070px;
+    }
+    .ch1{
+        margin-top: 25px;
+    }
+    .cubick__parent{
+        position: absolute;
+        left: 317px;
+        top: 1480px;
+    }
+    .img__parent1{
+        flex-wrap: wrap;
+    }
+    .img8{
+        margin-top: 50px;
+        margin-left: 23px;
+    }
+    .img9{
+        margin-top: 50px;
+    }
+    .reprimand1{
+        font-size: 20px;
+        position: absolute;
+        left: 0px;
+        top: 1940px;
+    }
+    .reprimand2{
+        font-size: 20px;
+        position: absolute;
+        left: 360px;
+        top: 1940px;
+    }
+    .price1{
+        font-size: 17px;
+        position: absolute;
+        left: 0;
+        top: 1965px;
+    }
+    .price2{
+        font-size: 17px;
+        position: absolute;
+        left: 360px;
+        top: 1965px;
+    }
+    .reprimand3{
+        font-size: 20px;
+        position: absolute;
+        left: 23px;
+        top: 2440px;
+    }
+    .reprimand4{
+        font-size: 20px;
+        position: absolute;
+        left: 360px;
+        top: 2440px;
+    }
+    .price3{
+        font-size: 17px;
+        position: absolute;
+        left: 23px;
+        top: 2461px;
+    }
+    .price4{
+        font-size: 17px;
+        position: absolute;
+        left: 360px;
+        top: 2461px;
+    }
+    .parent_big_img{
+        display: none;
+    }
+    .parent__gray{
+        display: none;
+    }
+    .sign{
+        position: absolute;
+        left: 240px;
+        top: 2845px;
+    }
+    .dash{
+        position: absolute;
+        left: 243px;
+        top: 3020px;
+    }
+    .square{
+        position: absolute;
+        left: 686px;
+        top: 2800px;
+    }
+    .w1{
+        margin-left: 0;
+    }
+}
+/* Адаптив Mobile L */
+@media (max-width:425px) {
+    /* .parent__absolute{
+        background-color: aqua;
+    } */
+    .parent__header1{
+        width: 425px;
+    }
+    .a3{
+        position: absolute;
+        left: 100px;
+    }
+    .img1{
+        position: absolute;
+        left: 75px;
+    }
+    .img2{
+        position: absolute;
+        left: 88px;
+    }
+    .img4{
+        width: 425px;
+    }
+    .img5{
+        width: 425px;
+        margin-top: 30px;
+    }
+    .desk1{
+        margin-left: 100px;
+        position: absolute;
+        left: 30px;
+        top: 670px;
+    }
+    .desk2{
+        width: 200px;
+        position: absolute;
+        left: 100px;
+        top: 1000px;
+    }
+    .learn1{
+        margin-left: 100px;
+        position: absolute;
+        left: 200px;
+        top: 675px;
+    }
+    .l1{
+        position: absolute;
+        left: 208px;
+        top: 1010px;
+    }
+    .cubick__parent{
+        position: absolute;
+        left: 202px;
+        top: 1190px;
+    }
+    .img6{
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }
+    .img7 {
+        margin-left: 50px;
+    }
+    .img8 {
+        margin-left: 50px;
+    }
+    .img9 {
+        margin-left: 50px;
+    }
+    .reprimand1 {
+        font-size: 25px;
+        position: absolute;
+        left: 28px;
+        top: 1650px;
+    }
+    .reprimand2 {
+        font-size: 25px;
+        position: absolute;
+        left: 58px;
+        top: 2163px;
+    }
+    .reprimand3 {
+        font-size: 25px;
+        position: absolute;
+        left: 58px;
+        top: 2657px;
+    }
+    .reprimand4 {
+        font-size: 25px;
+        position: absolute;
+        left: 58px;
+        top: 3160px;
+    }
+    .price1 {
+        font-size: 25px;
+        position: absolute;
+        left: 270px;
+        top: 1655px;
+    }
+    .price2 {
+        font-size: 25px;
+        position: absolute;
+        left: 270px;
+        top: 2168px;
+    }
+    .price3 {
+        font-size: 25px;
+        position: absolute;
+        left: 270px;
+        top: 2665px;
+    }
+    .price4 {
+        font-size: 25px;
+        left: 305px;
+        top: 3160px;
+    }
+    .b1{
+        gap: 50px;
+    }
+    .sign{
+        width: 250px;
+        position: absolute;
+        left: 150px;
+        top: 3570px;
+    }
+    .dash{
+        width: 200px;
+        position: absolute;
+        left: 200px;
+        top: 3750px;
+    }
+    .bottom__bottom{
+        gap: 20px;
+    }
+    .w1{
+        margin-left: 0;
+    }
+    .square{
+        position: absolute;
+        left: 342px;
+        top: 3820px;
+    }
+}
+/* Адаптив Mobile M */
+@media (max-width:375px) {
+    .parent__header1{
+        width: 375px;
+    }
+    .a3{
+        width: 250px;
+    }
+    .img4{
+        width: 375px;
+    }
+    .img5{
+        width: 375px;
+    }
+    .desk1{
+        position: absolute;
+        left: 0px;
+        top: 620px;
+    }
+    .desk2{
+        position: absolute;
+        left: 50px;
+        top: 923px;
+    }
+    .learn1{
+        width: 200px;
+        position: absolute;
+        left: 170px;
+        top: 630px;
+    }
+    .l1{
+        position: absolute;
+        left: 170px;
+        top: 930px;
+    }
+    .cubick__parent{
+        position: absolute;
+        left: 165px;
+        top: 1125px;
+    }
+    .img6{
+        margin-left: 35px;
+    }
+    .img7{
+        margin-left: 35px;
+    }
+    .img8{
+        margin-left: 35px;
+    }
+    .img9{
+        margin-left: 35px;
+    }
+    .reprimand1{
+        width: 200px;
+        position: absolute;
+        left: 22px;
+        top: 1585px;
+    }
+    .reprimand2{
+        width: 200px;
+        position: absolute;
+        top: 2085px;
+        left: 38px;
+    }
+    .reprimand3{
+        width: 200px;
+        position: absolute;
+        top: 2595px;
+        left: 38px;
+    }
+    .reprimand4{
+        position: absolute;
+        top: 3100px;
+        left: 38px;
+    }
+    .price1{
+        position: absolute;
+        top: 1585px;
+    }
+    .price2{
+        position: absolute;
+        top: 2085px;
+    }
+    .price3{
+        position: absolute;
+        top: 2595px;
+    }
+    .price4{
+        position: absolute;
+        top: 3100px;
+        left: 288px;
+    }
+    .sign{
+        width: 200px;
+        position: absolute;
+        top: 3500px;
+    }
+    .dash{
+        width: 150px;
+        position: absolute;
+        top: 3686px;
+    }
+    .square{
+        position: absolute;
+        left: 290px;
+        top: 3770px;
+    }
+    .bottom__bottom{
+        position: absolute;
+        left: 0;
+    }
+}
+/* Адаптив Mobile S */
+@media (max-width:320px) {
+    .parent__header1{
+        width: 320px;
+    }
+    .img4{
+        width: 320px;
+    }
+    .img5{
+        width: 320px;
+    }
+    .desk1{
+        margin-left: 0;
+        position: absolute;
+        left: 45px;
+        top: 610px;
+    }
+    .desk2{
+        position: absolute;
+        left: 20px;
+        top: 870px;
+    }
+    .learn1{
+        position: absolute;
+        left: 120px;
+        top: 620px;
+    }
+    .l1{
+        position: absolute;
+        left: 120px;
+        top: 880px;
+    }
+    .cubick__parent{
+        position: absolute;
+        left: 130px;
+        top: 1075px;
+    }
+    .img6{
+        margin-left: 5px;
+    }
+    .img7{
+        margin-left: 5px;
+    }
+    .img8{
+        margin-left: 5px;
+    }
+    .img9{
+        margin-left: 5px;
+    }
+    .reprimand1{
+       position: absolute;
+       left: 0px;
+       top: 1530px;
+    }
+    .reprimand2{
+       position: absolute;
+       left: 8px;
+       top: 2030px;
+    }
+    .reprimand3{
+       position: absolute;
+       left: 8px;
+       top: 2535px;
+    }
+    .reprimand4{
+       position: absolute;
+       left: 8px;
+       top: 3035px;
+    }
+    .price1{
+        position: absolute;
+        top: 1530px;
+        left: 220px;
+    }
+    .price2{
+        position: absolute;
+        top: 2030px;
+        left: 220px;
+    }
+    .price3{
+        position: absolute;
+        top: 2535px;
+        left: 220px;
+    }
+    .price4{
+        position: absolute;
+        top: 3035px;
+        left: 255px;
+    }
+    .text_4_2{
+        font-size: 25px;
+    }
+    .bottom{
+        margin-left: 0;
+    }
+    .sign{
+        position: absolute;
+        top: 3500px;
+        left: 100px;
+    }
+    .dash{
+        position: absolute;
+        left: 150px;
+        top: 3680px;
+    }
+    .square{
+        position: absolute;
+        left: 240px;
+        top: 3760px;
+    }
+    .w4{
+        display: none;
+    }
+}
